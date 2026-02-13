@@ -3,7 +3,7 @@
 # Sobre a atividade:
 Esta atividade teve como objetivo implementar dois algoritmos clássicos de ordenação: Bubble Sort e Selection Sort, utilizando a linguagem C.
 
-Os algoritmos foram aplicados em vetores preenchidos em ordem decrescente (pior caso), com os seguintes tamanhos:
+Os algoritmos foram aplicados em vetores preenchidos em ordem decrescente, com os seguintes tamanhos:
 
 - 100 elementos;
 - 1000 elementos;
