@@ -33,7 +33,7 @@ void bubbleSort(int *vetor, int tamanho, int *comparacoes, int *movimentacoes) {
 }
 
 
-// Implementação do Selection Sort
+// ImplementaÃ§Ã£o do Selection Sort
 void selectionSort(int *vetor, int tamanho, int *comparacoes, int *movimentacoes) {
      int i, j;
      
@@ -63,10 +63,10 @@ void selectionSort(int *vetor, int tamanho, int *comparacoes, int *movimentacoes
     }
 }
 
-// Função que executa o teste para cada algoritmo
+// FunÃ§Ã£o que executa o teste para cada algoritmo
 void executarTeste(const char *nomeAlgoritmo,
-                   void (*funcaoOrdenacao)(int *, int, int *, int *),
-                   int tamanho) {
+void (*funcaoOrdenacao)(int *, int, int *, int *),
+     int tamanho) {
 
     int *vetor = (int *)malloc(tamanho * sizeof(int));
     int comparacoes;
@@ -111,3 +111,4 @@ int main() {
 
     return 0;
 }
+
